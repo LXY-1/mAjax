@@ -1,0 +1,31 @@
+{
+  "name": "example",
+  "version": "1.0.0",
+  "description": "基于promise封装的简易ajax插件演示例子",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "dev": "webpack-dev-server --config ./webpack.dev.js"
+  },
+  "keywords": [
+    "mockjs",
+    "promise封装ajax"
+  ],
+  "author": "lxw",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.9.0",
+    "@babel/preset-env": "^7.9.5",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.2.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3"
+  },
+  "dependencies": {
+    "@babel/polyfill": "^7.8.7",
+    "mock": "^0.1.1",
+    "mock.js": "^0.2.0",
+    "mockjs": "^1.1.0"
+  }
+}
